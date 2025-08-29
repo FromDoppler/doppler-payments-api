@@ -57,7 +57,8 @@ public class Startup
             if (!string.IsNullOrEmpty(baseUrl))
             {
                 c.AddServer(new OpenApiServer() { Url = baseUrl });
-            };
+            }
+            ;
         });
     }
 

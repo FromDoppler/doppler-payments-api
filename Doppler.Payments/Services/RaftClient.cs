@@ -61,7 +61,7 @@ namespace Doppler.Payments.Services
             {
                 return;
             }
-                
+
             var res = await _http.DeleteAsync(url);
             res.EnsureSuccessStatusCode();
         }
