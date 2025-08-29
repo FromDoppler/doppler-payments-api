@@ -27,7 +27,7 @@ FROM build AS test
 RUN dotnet test
 
 FROM build AS publish
-RUN dotnet publish "./Doppler.HelloMicroservice/Doppler.HelloMicroservice.csproj" -c Release -o /app/publish
+RUN dotnet publish "./Doppler.Payments/Doppler.Payments.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:7.0.8-bullseye-slim AS final
 WORKDIR /app
@@ -35,5 +35,5 @@ EXPOSE 80
 COPY --from=publish /app/publish .
 ARG version=unknown
 RUN echo $version > /app/wwwroot/version.txt
-ENTRYPOINT ["dotnet", "Doppler.HelloMicroservice.dll"]
+ENTRYPOINT ["dotnet", "Doppler.Payments.dll"]
 LABEL name="hello-microservice" version="$version"

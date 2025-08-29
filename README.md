@@ -38,7 +38,7 @@ If you prefer to run these commands without docker, you can read [Dockerfile](./
 
 - Editor Config validation using `dotnet-format` and `eclint`.
 
-- Launch and debug settings for VS Code ([.vscode](./.vscode)) and Visual Studio ([launchSettings.json](./Doppler.HelloMicroservice/../Doppler.HelloMicroservice/Properties/launchSettings.json)).
+- Launch and debug settings for VS Code ([.vscode](./.vscode)) and Visual Studio ([launchSettings.json](./Doppler.Payments/../Doppler.Payments/Properties/launchSettings.json)).
 
 - Custom color for VS Code (using [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock&wt.mc_id=vscodepeacock-github-jopapa), see [settings.json](./.vscode/settings.json)).
 
@@ -68,13 +68,13 @@ A simple way of doing that is copy all the files and then:
 
 - Delete all `bin` and `obj` folders
 
-- Rename all the files and folder names from `Doppler.HelloMicroservice` to the desired names.
+- Rename all the files and folder names from `Doppler.Payments` to the desired names.
 
-  For example `Doppler.HelloMicroservice.Test/Doppler.HelloMicroservice.Test.csproj` to `Doppler.SuperAPI.Test/Doppler.SuperAPI.Test.csproj`
+  For example `Doppler.Payments.Test/Doppler.Payments.Test.csproj` to `Doppler.SuperAPI.Test/Doppler.SuperAPI.Test.csproj`
 
-- Case sensitive _search and replace_ all occurrences of `Doppler.HelloMicroservice` to the desired name.
+- Case sensitive _search and replace_ all occurrences of `Doppler.Payments` to the desired name.
 
-  **IMPORTANT:** Some files are not included in the VS Solution, you should search for `Doppler.HelloMicroservice` in **ALL** the files.
+  **IMPORTANT:** Some files are not included in the VS Solution, you should search for `Doppler.Payments` in **ALL** the files.
 
 - Case sensitive _search and replace_ all occurrences of `hello-microservice` to the desired name.
 
