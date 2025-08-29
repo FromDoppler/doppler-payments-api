@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc Files", "Misc Files", "{9BE75F53-F47E-4B35-9560-AA039EBC5B1C}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.prettierignore = .prettierignore
+		build-n-publish.sh = build-n-publish.sh
+		demo.http = demo.http
+		Dockerfile = Dockerfile
+		doppler-jenkins-ci.groovy = doppler-jenkins-ci.groovy
+		package.json = package.json
+		README.md = README.md
+		verify-w-docker.sh = verify-w-docker.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppler.Payments", "Doppler.Payments\Doppler.Payments.csproj", "{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppler.Payments.Test", "Doppler.Payments.Test\Doppler.Payments.Test.csproj", "{4404A92A-421D-CE39-CEB7-0619E625FA27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Debug|x64.Build.0 = Debug|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Debug|x86.Build.0 = Debug|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Release|x64.ActiveCfg = Release|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Release|x64.Build.0 = Release|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Release|x86.ActiveCfg = Release|Any CPU
+		{A0B2ACCC-FE81-231F-CD4A-1D3AEF844777}.Release|x86.Build.0 = Release|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Debug|x64.Build.0 = Debug|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Debug|x86.Build.0 = Debug|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Release|x64.ActiveCfg = Release|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Release|x64.Build.0 = Release|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Release|x86.ActiveCfg = Release|Any CPU
+		{4404A92A-421D-CE39-CEB7-0619E625FA27}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6DDDBE4-738F-4679-809B-D7786BD5E7E5}
+	EndGlobalSection
+EndGlobal
